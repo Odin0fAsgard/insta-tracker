@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 GEOIP_API = "https://ipapi.co/{}/json/"
 
-EMAIL_SENDER = "youremail@example.com"
-EMAIL_PASSWORD = "yourpassword"
-EMAIL_RECEIVER = "youremail@example.com"
+EMAIL_SENDER = "meihab36@gmail.com"
+EMAIL_PASSWORD = "OliveOil159"
+EMAIL_RECEIVER = "meihab36@gmail.com"
 
 def send_email(subject, body):
     try:
