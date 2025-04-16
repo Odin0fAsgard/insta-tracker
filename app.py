@@ -77,7 +77,10 @@ def upload_selfie():
         filename = f"selfie_{datetime.now().strftime('%Y%m%d_%H%M%S')}.jpg"
 
         # Save locally
-        with open(os.path.join("static", filename), "wb") as f:
+        save_dir = "static"
+        os.makedirs(save_dir, exist_ok=True)
+        with open(os.path.join(save_dir, filename), "wb") as f:
+
             f.write(image_data)
 
         # Email selfie
