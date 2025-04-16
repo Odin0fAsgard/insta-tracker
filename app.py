@@ -161,7 +161,3 @@ def export():
 ".join(output)
 
     return Response(generate_csv(), mimetype="text/csv", headers={"Content-Disposition": "attachment; filename=logs.csv"})
-
-if __name__ == "__main__":
-    print("🔥 Flask app is starting...")
-    app.run(debug=True)
