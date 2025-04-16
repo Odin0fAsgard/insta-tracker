@@ -157,8 +157,7 @@ def export():
         output.append(",".join(header))
         for row in rows:
             output.append(",".join(['"' + str(cell).replace('"', '""') + '"' for cell in row]))
-        return "
-".join(output)
+        return "".join(output)
 
     return Response(generate_csv(), mimetype="text/csv", headers={"Content-Disposition": "attachment; filename=logs.csv"})
 
