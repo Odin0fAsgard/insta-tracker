@@ -9,7 +9,7 @@ app = Flask(__name__)
 GEOIP_API = "https://ipapi.co/{}/json/"
 
 EMAIL_SENDER = "meihab36@gmail.com"
-EMAIL_PASSWORD = "OliveOil159"
+EMAIL_PASSWORD = "yoqzxxgcwteitxhc"
 EMAIL_RECEIVER = "meihab36@gmail.com"
 
 def send_email(subject, body):
