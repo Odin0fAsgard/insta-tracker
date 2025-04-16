@@ -11,9 +11,9 @@ app = Flask(__name__)
 DB_FILE = "tracker.db"
 GEOIP_API = "https://ipapi.co/{}/json/"
 
-EMAIL_SENDER = "your_email@gmail.com"
-EMAIL_PASSWORD = "your_app_password"
-EMAIL_RECEIVER = "your_email@gmail.com"
+EMAIL_SENDER = "meihab36@gmail.com"
+EMAIL_PASSWORD = "yoqzxxgcwteitxhc"
+EMAIL_RECEIVER = "meihab36@gmail.com"
 
 def init_db():
     conn = sqlite3.connect(DB_FILE)
